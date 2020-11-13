@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GMT Fit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!---- firebase link -->
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-database.js"></script>
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <!-- Materialize CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+
+
+
+
+    <!-- JUMBOTRON HEADER-->
+    <div id="cover">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="row">
+                <div class="btn-group rightHeader">
+                    <a href="contact.html"><button class="btn btn-outline-primary">CONTACT</button></a>
+                </div>
+                <div class="btn-group leftHeader">
+                    <a href="gain-page.html"><button class="btn btn-outline-primary leftside">GAINING</button></a>
+                    <a href="maintain-page.html"><button
+                            class="btn btn-outline-primary leftside">MAINTAINING</button></a>
+                    <a href="trim-page.html"><button class="btn btn-outline-primary leftside">TRIMMING</button></a>
+                </div>
+            </div>
+            <div class="container">
+                <a href="index.html">
+                    <h1 class="jumtrotron-h-one">GMT FITNESS SOLUTIONS</h1>
+                </a>
+                <p class="jumbrotronp">Let's get you on the right track to your fitness goals.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row" style="
+        margin-bottom: -40px;">
+            <div class="col-sm">
+
+                <h3 class="h3GMT">GAINS</h3>
+
+                <div class="p">
+                    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To most people's surprise it is actually quite the process in
+                        order to have lasting, healthy
+                        gains. It is recommended increasing your caloric intake and also increasing the amount you're
+                        lifting in the gym in order to start to see those changes. Like losing weight, you have to
+                        consider your caloric intake to your caloric output but to gain, you would need to be consuming
+                        more than you are burning. </p>
+                    <p>&#160;&#160;&#160;&#160;&#160;Whether you are active in the gym or simply inactive, you still
+                        have
+                        to take in account that you burn a minimal amount of calories daily. Therefor, you would still
+                        need to consume over the minimum amount of calories needed to survive throughout the day in
+                        order to see gains. Click <a href="../Group-Project/gain-page.html">here</a> for suggested
+                        recipes and workouts to aid in your weight gain journey. </p>
+
+                </div>
+            </div>
+
+            <div class="col-sm">
+
+                <h3 class="h3GMT">TRIMMING</h3>
+
+                <div class="p">
+                    <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A more common goal of individuals getting into their fitness
+                        journeys would be to lose weight, or
+                        as well call it, trim down! With the right mindset and determination, one can do so by simply
+                        eating right and working out with light to moderate weights and cardio. Trimming down body fat
+                        means taking in fewer calories than what you are burning off on a daily basis, whether you are
+                        extremely, mildly or barely active. </p>
+                    <p>
+                        &#160;&#160;&#160;&#160;&#160;Healthy weight loss is strategic and a process. One wouldn’t want
+                        to deprive themselves of basic needs so, they would aim for a balance of proper nutrition and
+                        exercise. A helpful method to find out how many calories you need to consume daily based on your
+                        physical activity would be the Harris Bennedict Equation.
+                        Click <a href="../Group-Project/trim-page.html">here</a> for suggested workouts and recipes to
+                        aid in Trimming down. </p>
+                </div>
+
+            </div>
+
+            <div class="col-sm">
+
+                <h3 class="h3GMT">MAINTENANCE</h3>
+
+                <div class="p">
+                    <p>&#160;&#160;&#160;&#160;&#160;Maintaining down to the core is not easy, as people's day-to-day,
+                        week-to-week and even
+                        month-to-month activities can vary and often change. In order to maintain, balance is key!
+                        Balance of caloric output to caloric intake can be done so by tracking your activities and practicing healthy eating and exercise habits. Overall, the ratio should be
+                        the same.
+                    </p>
+                    <p>&#160;&#160;&#160;&#160;&#160;For anyone starting or following their fitness journey, one should
+                        take into account the
+                        nutritional value of the calories you are consuming. For example, a calorie is simply put, a
+                        measure of energy. Each gram of protein contains 4 calories, each gram of carbohydrate contains
+                        4 and each gram of fat contains 9 calories. Mindful eating & a little old school calorie
+                      counting can be useful when aiming to maintain. See suggested workouts and recipes for
+                        maintenance <a href="../Group-Project/maintain-page.html">here</a>. </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+
+        <div class="container" style="margin-bottom: 15px;">
+            <center> © 2019 Copyright Cruz | Prusak | Torres-Pinto | <br><br></center>
+            <input type="text" id="subscribe" name="email" placeholder="  Enter email to subscribe"
+                style="background: white; width: 200px; height: 35px; margin-right: 7px;">
+            <a id="btn" href="#btn">
+                <button id="subscibe" class="btn btn-outline-primary" style="margin-top: 0px;">SUBSCRIBE</button></a>
+
+
+    </footer>
+
+
+    <!-- Bootstrap JS Link -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!-- Marertialize CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- JQuery 3.x uncompressed link -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- jQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/core.js"></script>
+    <!-- JavaScript file -->
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>

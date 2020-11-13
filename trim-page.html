@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<title>GMT Fit | Trim</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!---- firebase link -->
+<script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-database.js"></script>
+<!-- Reset CSS -->
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+<!-- Materialize CSS CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<!-- Bootstrap Css -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- CSS Link -->
+<link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- JumbroTron -->
+    <div id="cover">
+        <div class="jumbotron jumbotron-fluid">
+        <div class="row">
+            <div class="btn-group rightHeader">
+                <a href="contact.html"><button class="btn btn-outline-primary">CONTACT</button></a>
+            </div>
+            <div class="btn-group leftHeader">
+                <a href="gain-page.html"><button class="btn btn-outline-primary leftside">GAINING</button></a>
+                <a href="maintain-page.html"><button class="btn btn-outline-primary leftside">MAINTAINING</button></a>
+                <a href="trim-page.html"><button class="btn btn-outline-primary leftside">TRIMMING</button></a>
+            </div>
+        </div>
+            <div class="container">
+                <a href="index.html">
+                    <h1 class="jumtrotron-h-one">GMT FITNESS SOLUTIONS</h1>
+                </a>
+                <p class="jumbrotronp">Let's get you on the right track to your fitness goals.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Row for Headers -->
+    <div class="container">
+        <!-- Exercises Form -->
+        <div class="row">
+            <div class="col-sm-6">
+                <h2 class="GTMh2">
+                    <center>Suggested Workouts For Trimming</center>
+                </h2>
+                <br>
+                <form id="exercise-form">
+                    <label for="exercise-input">What workout do you want to try?</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                        </div>
+                        <input id="exercise-input" type="text" class="form-control" placeholder="ex: Biceps Workouts ">
+                        <button id="add-exercise" type="button" class="btn btn-warning">Submit</button>
+                    </div>
+
+                    <div class="videos">
+                        <div class="card" style="width: 400">
+                            <div class="card-body">
+                                <div class="card-video">
+                                    <iframe class="embed-responsive-item" iframe width="443" height="335"
+                                        src="https://www.youtube.com/embed/CgPXS7K0hJ4" frameborder="0"
+                                        allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </form>
+            <!-- Recipe Form -->
+            <div class="col-sm-6">
+                <h2 class="GTMh2">
+                    <center>Suggested Recipes For Losing Weight</center>
+                </h2>
+                <br>
+                <form id="recipe-form">
+                    <label for="recipeinput">What food do you want to try?</label>
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                        </div>
+                        <input id="recipeinput" type="text" class="form-control" placeholder="ex: Vegan Pasta ">
+                        <button id="add-recipe" type="button" class="btn btn-warning">Submit</button>
+                    </div>
+
+                    <div id="recipes">
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+       <!-- FOOTER -->
+    <footer class="page-footer">
+            <div class="container" style="margin-bottom: 15px;">
+               <center> © 2019 Copyright Cruz | Prusak | Torres-Pinto | <br><br></center>
+               <input type="text" id="subscribe" name="email"
+                    placeholder="  Enter email to subscribe" style="background: white; width: 200px; height: 35px; margin-right: 7px;">
+                <a id="btn" href="#btn">
+                    <button id="subscibe" class="btn btn-outline-primary" style="margin-top: 0px;">SUBSCRIBE</button></a>
+    
+            
+        </footer>
+        
+
+
+    <!-- JQuery 3.x uncompressed link -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS Link -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!-- Marertialize CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- JavaScript file -->
+    <script src="assets/javascript/trim.js"></script>
+
+</body>
+
+</html>
+

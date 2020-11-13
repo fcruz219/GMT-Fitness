@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GMT Fit | Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!---- firebase link -->
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase-database.js"></script>
+
+    <!-- Reset CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <!-- Materialize CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS Link -->
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- JUMBOTRON HEADER-->
+    <div id="cover">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="row">
+                <div class="btn-group rightHeader">
+                    <a href="contact.html"><button class="btn btn-outline-primary">CONTACT</button></a>
+                </div>
+                <div class="btn-group leftHeader">
+                    <a href="gain-page.html"><button class="btn btn-outline-primary leftside">GAINING</button></a>
+                    <a href="maintain-page.html"><button
+                            class="btn btn-outline-primary leftside">MAINTAINING</button></a>
+                    <a href="trim-page.html"><button class="btn btn-outline-primary leftside">TRIMMING</button></a>
+                </div>
+            </div>
+            <div class="container">
+                <a href="index.html">
+                    <h1 class="jumtrotron-h-one">GMT FITNESS SOLUTIONS</h1>
+                </a>
+                <p class="jumbrotronp">Let's get you on the right track to your fitness goals.</p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- contact form -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h1>Inquire Here </h1>
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="container inquirecontact">
+                    <text class="inquiretext" color="white">We are here to assist you if you are completely new to the
+                        fitness world and have trouble figuring out where to start.
+                        To get more information, tips, pointers and even to book a consultation to speak
+                        with of our fully certified independent trainers, please fill out the form and give a breif
+                        description of your goals.</text>
+                </div>
+
+            </div>
+            <div class="col-sm-6 form-column">
+                <form>
+                    <div class="form-group">
+                        <label class="formlabel" for="exampleFormControlInput1">Email Address:</label>
+                        <input id="email" type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label class="formlabel" for="exampleFormControlSelect1">I would like help with :</label>
+                        <select class="form-control" id="help-form">
+                            <option>Gaining</option>
+                            <option>Maintaining</option>
+                            <option>Trimming (Fat Loss)</option>
+                            <option>Book A Consultation with a trainer</option>
+                            <option>Nutrition Only</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="formlabel" id="contact" for="exampleFormControlTextarea1">Describe Your
+                            Goals</label>
+                        <textarea class="form-control" id="goals-text" rows="3"></textarea>
+                        <a id="btn" href="#btn"><button id="contact-submit" class="btn btn-outline-primary"
+                                style="margin-top: 2px;">Submit</button></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="page-footer">
+        <div class="container" style="margin-bottom: 15px;">
+            <center> © 2019 Copyright Cruz | Prusak | Torres-Pinto | <br><br></center>
+            <input type="text" id="subscribe" name="email" placeholder="  Enter email to subscribe"
+                style="background: white; width: 200px; height: 35px; margin-right: 7px;">
+            <a id="btn" href="#btn">
+                <button id="subscibe" class="btn btn-outline-primary" style="margin-top: 0px;">SUBSCRIBE</button></a>
+
+
+    </footer>
+
+    <!-- JQuery 3.x uncompressed link -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS Link -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <!-- Marertialize CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- JavaScript file -->
+    <script src="assets/javascript/contact.js"></script>
+</body>
+
+</html>

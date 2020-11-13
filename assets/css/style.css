@@ -1,0 +1,266 @@
+/* JUMBOTRON STYLE HERE */
+.jumbotron{
+  background: url(../images/pexels-photo-841128.jpeg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+height: 200px;
+background-size: cover;
+}
+
+.jumtrotron-h-one {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+
+}
+
+.jumbrotronp {
+    text-align: center!important;
+    color:white;
+    text-shadow: 2px 2px 8px black;
+}
+/* button styling for jumbotron */
+.btn{
+  position: relative;
+    margin-right:10px;
+}
+.btn-group {
+  position: relative;
+}
+
+.btn-outline-primary{
+  border-color: white;
+  color:white;
+  margin-top:30px;
+  font-weight:100;
+}
+.btn-outline-primary:hover{
+  border-color: transparent;
+  color:black;
+  background-color:white;
+}
+.btn-outline-primary:active{
+  border-color: transparent;
+  color:black;
+  background-color:white;
+  padding:9px 20px 9px 20px;
+}
+
+.leftside {
+  background: rgba(0, 0, 0, 0.664);
+  color: white;
+}
+.leftside:hover{
+  border-color: transparent;
+  color:black;
+  background-color:white;
+}
+.leftside:active{
+  border-color: transparent;
+  color:black;
+  background-color:white;
+  padding:9px 20px 9px 20px;
+}
+
+/* BUTTON HEADER RIGHT */
+.rightHeader{
+    position: absolute;
+    top: -15px;
+    right: 8px;
+    size: inherit;
+    
+  }
+  /* BUTTON HEADER LEFT */
+  .leftHeader{
+    position: absolute;
+    top: -15px;
+    left: 5px;
+    
+  }
+  
+  
+  .container a {
+    text-decoration: none;
+  }
+
+  #carousel {
+    width:640px;
+    height:360px;
+  }
+
+  #recipes {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .recipetext{
+    font-size: 5px;
+  }
+
+body {
+  background: black;
+}
+
+.p {
+  border: 2px solid red;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  border-radius: 2.5em;
+  background: black;
+  color: white;
+  margin-left: 5px;
+  padding: 10px 10px 10px 10px;
+  height: 77%;
+  padding: 15px;
+}
+
+h3 {
+  color: white;
+  text-shadow: 2px 2px 8px red;
+  font-size: 35px;
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 8px black;
+  text-shadow: 2px 2px 8px red;
+  margin-left: 38px;
+  margin-bottom: -10px;
+}
+
+.GTMh2 {
+  color: white;
+  text-shadow: 2px 2px 8px red;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: .7px;
+}
+
+.h3GMT {
+  padding-top: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-right: 23px;
+}
+
+/* materialize footer */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer.page-footer {
+  color: white;
+  text-align: center;
+  width: 100%;
+  background-image: linear-gradient(to bottom left, red, black);
+}
+
+form {
+  padding: 15px 25px 37px 25px;
+  max-width: 500px;
+  max-height: 600px;
+  border: 2px solid red;
+  border-radius: 2.5em;
+  overflow: auto;
+}
+
+.inquirecontact {
+  padding: 60px 20px 0px 20px;
+  max-width: 600px;
+  height: 350px;
+  border: 2px solid red;
+  border-radius: 2.5em;
+  text-align: justify;
+  font-size: 18px;
+  overflow: auto;
+}
+
+.inquiretext {
+  color: white;
+  margin-left: 0px;
+  letter-spacing: 1.5px;
+  overflow: auto;
+}
+
+.formlabel {  
+color: white;
+}
+
+#btn {
+  position: absolute;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#recipe-form {
+  background: white;
+}
+#exercise-form{
+  background: white;
+
+}
+
+.card-text {
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.btn-danger {
+  background: lightslategray;
+  border: 1px lightslategrey solid
+}
+.btn-danger:hover {
+  background: lightslategray;
+  border: 1px lightslategrey solid
+}
+
+.card-body {
+  padding: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.card {
+  background: black;
+  height:338px;
+
+}
+  
+.card-body {
+  background: black;
+  max-height: 335px;
+}
+.recipeCard {
+  margin-right: 15px;
+  max-width: 190px;
+}
+
+.col-sm-4 {
+
+  margin-top: -15px;
+
+}
+
+.subscribeinoutbtn {
+  margin-left: 941px;
+  width: 100%;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 640px) {
+  .jumtrotron-h-one {
+    margin-top: 40px;
+  }
+}
+
